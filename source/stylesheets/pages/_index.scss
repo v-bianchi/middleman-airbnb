@@ -1,3 +1,29 @@
 // Import page-specific CSS files here.
 @import "home";
-@import "about";
+@import "team";
+
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.features img {
+  width: 100px;
+}
+
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 15px;
+}
